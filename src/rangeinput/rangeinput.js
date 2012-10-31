@@ -345,7 +345,7 @@
 			init();
 			
 			// avoid redundant event triggering (= heavy stuff)
-			fireOnSlide = hasEvent($(self)) || hasEvent(input);
+			fireOnSlide = true;
 			
 				
 		}).on("drag", function(e, y, x) {        
